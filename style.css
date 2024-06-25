@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -22,11 +23,26 @@ body {
 	text-transform: uppercase;
 	background-color: #f7f7f7;
 	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.image-container {
+	float: left;
+	width: 33%;
+}
+
+.product-overview {
+	float: left;
+	width: 33%;
+	margin-right: 20px;
 }
 
 /* PRODUCT INFORMATION */
 .price {
 	font-size: 24px;
+	float: left;
+	margin-bottom: 20px;
+	width: 100px;
 }
 
 .shipping {
@@ -35,6 +51,8 @@ body {
 	font-weight: bold;
 	color: #777;
 	margin-bottom: 20px;
+	width: 100px;
+	float: right;
 }
 
 .sale {
@@ -52,6 +70,11 @@ body {
 
 	/*   width: 40px;
   text-align: center; */
+}
+
+.product-description {
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 .more-info:link,
